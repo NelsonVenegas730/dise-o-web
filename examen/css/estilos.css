@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fdfdfd;
+}
+
+.banner {
+    height: 90vh;
+    background: url('/imagenes/banner.webp') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 6px #000;
+    position: relative;
+}
+
+
+.banner::after {
+    content: "🐾";
+    position: absolute;
+    bottom: 20px;
+    font-size: 3rem;
+    opacity: 0.7;
+}
+
+
+h2 {
+    color: #333;
+}
+
+
+#scrollTop {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #ff5d5d;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+#scrollTop:hover {
+    background: #ff3030;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#galeria img {
+    transition: transform 0.3s;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+}
