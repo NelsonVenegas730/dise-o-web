@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catálogo - Lavacar</title>
+    <link rel="icon" href="imagenes/favicon1.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/reglas.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Lavacar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalogo.html">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Promociones</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.instagram.com" target="_blank">Instagram</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.facebook.com" target="_blank">Facebook</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ubicacion.html">Ubicación</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-5">
+        <div class="container">
+            <h1>Catálogo de Servicios Fotográficos</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="imagenes/carro7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paquete Básico</h5>
+                            <p class="card-text">$8 - Lavado exterior</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <img src="imagenes/carro8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paquete Premium</h5>
+                            <p class="card-text">$45 - Detallado completo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="list-group-section">
+        <h2 class="titulo-lavacar">Vehículos que Atendemos</h2>
+
+        <ul class="list-group-lavacar">
+            <li class="list-item-lavacar">
+                Autos Sedán – Compactos, medianos y ejecutivos
+            </li>
+            <li class="list-item-lavacar">
+                SUV y Crossovers – Vehículos familiares y utilitarios
+            </li>
+            <li class="list-item-lavacar">
+                Pick-ups – Doble cabina, 4x4 y vehículos de trabajo
+            </li>
+            <li class="list-item-lavacar">
+                Minivans – Transporte familiar y de pasajeros
+            </li>
+            <li class="list-item-lavacar">
+                Motocicletas – Deportivas, scooter y touring
+            </li>
+        </ul>
+    </section>
+    <section class="py-5 text-center">
+        <h2 class="mb-4">Consejo Rápido</h2>
+
+        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="popover" data-bs-placement="right"
+            title="Consejo de Lavado"
+            data-bs-content="Para mantener tu vehículo brillante por más tiempo, aplica cera cada 30 días.">
+            Mostrar consejo
+        </button>
+    </section>
+
+
+
+    <button id="waChat"
+        style="position:fixed;right:16px;bottom:16px;background:#25D366;border:none;color:white;padding:12px;border-radius:50%;box-shadow:0 6px 18px rgba(0,0,0,0.15);cursor:pointer;">WA</button>
+    <button id="scrollTop" title="Ir arriba"
+        style="display:none;position:fixed;right:16px;bottom:88px;background:#0d6efd;border:none;color:white;padding:10px 12px;border-radius:6px;cursor:pointer;">↑</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
